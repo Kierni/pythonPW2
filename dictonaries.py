@@ -53,6 +53,8 @@ while True:
     command = input("Do you want to continue Y/N? ")
     if command == "N":
         break
+    else:
+        continue
 
 
 
