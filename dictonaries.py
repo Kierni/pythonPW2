@@ -1,3 +1,5 @@
+import json
+
 phones = {"Adam Smith": "11-22-33", "Britney Spears": "44-55-66"}
 
 phones["Bob Marley"] = "99-88-77"
@@ -50,7 +52,7 @@ while True:
         print(dictionary_test)
     #else:
      #   print("unknown command")
-    command = input("Do you want to continue Y/N? ")
+    answer = input("Do you want to continue Y/N? ")
     if command == "N":
         break
     else:
